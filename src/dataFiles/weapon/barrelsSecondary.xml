@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- List of barrels --> 
+
+<barrels> 
+
+    <barrel>
+        <fullName>Titan FFB</fullName>
+        <description>Tactical shotgun barrel. 
+            Standard-issue barrel with no stat modifications. 
+        </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        <level>1</level>
+        <matchesWeapon>SHOT</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Krane SG Bar-20</fullName>
+        <description>Tactical shotgun barrel. 
+            Significantly increases damage, but greatly reduces range and increase spread. 
+        </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        <level>1</level>
+        <matchesWeapon>SHOT</matchesWeapon>
+    </barrel>
+
+    <barrel>
+        <fullName>None</fullName>
+        <description></description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>V2 X200 Mod</fullName>
+        <description>Tactical pistol barrel. 
+            Greatly improves damage, range, and spread, but reduces running speed. 
+        </description>	
+        <preview>v2x200mod.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <enableStock>true</enableStock>
+        
+        <statsLP>
+            <matchesWeapon>LP</matchesWeapon>
+            <damage>4</damage>
+            <spreadHip>-0.11</spreadHip>
+            <spreadHipMax>0.00</spreadHipMax>
+            <spreadAim>-0.05</spreadAim>
+            <spreadAimMax>0.00</spreadAimMax>
+            <rangeLow>4</rangeLow>
+            <rangeMax>4</rangeMax>
+            <runSpeed>-.50</runSpeed>
+        </statsLP>
+        
+        <matchesWeapon>HP</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>V2 Z900 Mod</fullName>
+        <description>Tactical pistol barrel.
+            Significantly increases damage, improves spread and range, but greatly reduces running speed. 
+        </description>	
+        <preview>v2z900mod.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <enableStock>true</enableStock>
+        
+        <statsLP>
+            <matchesWeapon>LP</matchesWeapon>
+            <damage>7</damage>
+            <spreadHip>-0.03</spreadHip>
+            <spreadHipMax>0.00</spreadHipMax>
+            <spreadAim>-0.01</spreadAim>
+            <spreadAimMax>0.00</spreadAimMax>
+            <rangeLow>1</rangeLow>
+            <rangeMax>1</rangeMax>
+            <runSpeed>-.50</runSpeed>
+        </statsLP>
+        
+        <matchesWeapon>HP</matchesWeapon>
+    </barrel>
+    
+</barrels>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- List of barrels --> 
+
+<barrels> 
+
+    <barrel>
+        <fullName>Frontier B.SEV</fullName>
+        <description>Balanced barrel. Standard-issue barrel with no stat modifications. </description>	
+        <preview>FrontierBSEV.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Silverwood X35 CQC</fullName>
+        <description>Short barrel. Increases spread and running speed, and reduces range. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Titan FFB-57 Extended</fullName>
+        <description>Extended barrel. Increases range and reduces spread, but reducing speed. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Krane Blackbird 71</fullName>
+        <description>Balanced barrel. Increases damage and spread, and reduces range and running speed. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Lightsky Raider x15</fullName>
+        <description>Tactical barrel. Increases damage and running speed, but greatly reduces range and increases spread. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Krane LR-Light</fullName>
+        <description>Light barrel. Significantly increases running speed. but reduces range and increases spread. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Briar Composite LBiV</fullName>
+        <description>Assault barrel. Significantly increases damage, but also reducing running speed, range, and increases spread. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Vulcan Stalker 1T6</fullName>
+        <description>Short barrel. Increases damage and range while reducing spread, but greatly reduces running speed. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Vulcan BP-15</fullName>
+        <description>Short barrel. Significantly increases running speed, but reduces damage and range while increasing spread. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Silverwood SW-09</fullName>
+        <description>Short barrel. Increases running speed and range while decreasing spread, but significantly reduces damage.</description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Hullbreach 773 Ogre</fullName>
+        <description>Short barrel. Increases damage and spread, and reduces range. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>ArmCom Elite X3-455</fullName>
+        <description>Assault barrel. Significantly increases damage, but reduces running speed and range and increases spread. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Krane GX3 Heavy</fullName>
+        <description>Heavy barrel. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Briar TDF 13</fullName>
+        <description>Ranged barrel. Greatly increases range and reduces spread, but reduces damage and running speed. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Briar Leatherneck5B.ID</fullName>
+        <description>Ranged barrel. Significantly improves range and spread, but also reduces damage and running speed. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Silverwood EX LR</fullName>
+        <description>Ranged barrel. Greatly improves range and spread, and increases running speed. Significantly reduces damage. </description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+    <barrel>
+        <fullName>Frontier Jurisdiction I-L4</fullName>
+        <description>Extended barrel.</description>	
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+    </barrel>
+    
+</barrels>

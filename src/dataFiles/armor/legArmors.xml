@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    list of leg armor
+-->
+
+<legArmors>
+
+    <legArmor>
+        <fullName>Allied LZ Viper</fullName>
+        <description>Standard leg armor. Provides one gear slot.
+            Standard-issue leg armor with no stat modifications. 
+        </description>
+        <preview>alliedlzviper.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        
+        <health>0</health>
+        <stamina>0</stamina>
+        <runSpeed>0</runSpeed>
+        <gearSlots>1</gearSlots>
+    </legArmor>    
+    
+    <legArmor>
+        <fullName>Guardian WarmongerRC2</fullName>
+        <description>Heavy leg armor. Provides no gear slots.
+            Greatly increases health but reduces speed and stamina. 
+        </description>
+        <preview>guardianwarmongerrc2.jpg</preview>
+        <level>4</level>
+        <health>18</health>
+        <stamina>-0.2</stamina>
+        <runSpeed>-0.49</runSpeed>
+        <gearSlots>0</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Dataluxe R2 Skirmisher</fullName>
+        <description>Light leg armor. Provides two gear slots.
+            Greatly increases speed and stamina but reduces health. 
+        </description>
+        <preview>dataluxer2skirmisher.jpg</preview>
+        <level>6</level>
+        <health>-18</health>
+        <stamina>0.3</stamina>
+        <runSpeed>0.49</runSpeed>
+        <gearSlots>2</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Dataluxe R7 Skirmisher</fullName>
+        <description>Standard leg armor. Provides two gear slots.
+            Increases speed and stamina but reduces health. 
+        </description>
+        <preview>dataluxer7skirmisher.jpg</preview>
+        <level>7</level>
+        <health>-10</health>
+        <stamina>0.3</stamina>
+        <runSpeed>0.27</runSpeed>
+        <gearSlots>2</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>ArmCom Piranha Z700</fullName>
+        <description>Standard leg armor. Provides two gear slots.
+            Increases health but reduces stamina and speed. 
+        </description>
+        <preview>armcompiranhaz700.jpg</preview>
+        <level>10</level>
+        <health>12</health>
+        <stamina>-0.4</stamina>
+        <runSpeed>-0.32</runSpeed>
+        <gearSlots>2</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Overmatch Diamondback</fullName>
+        <description>Standard leg armor. Provides two gear slots.
+            Greatly increases health but reduces stamina and speed. 
+        </description>
+        <preview>overmatchdiamondback.jpg</preview>
+        <level>12</level>
+        <health>20</health>
+        <stamina>-0.8</stamina>
+        <runSpeed>-0.54</runSpeed>
+        <gearSlots>2</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Allied APC L9-Raven</fullName>
+        <description>Standard leg armor. Provides no gear slots.
+            Significantly increases health and stamina but reduces speed. 
+        </description>
+        <preview>alliedapcl9raven.jpg</preview>
+        <level>14</level>
+        <health>10</health>
+        <stamina>0.2</stamina>
+        <runSpeed>-0.27</runSpeed>
+        <gearSlots>0</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Allied LS Viper</fullName>
+        <description>Light leg armor. Provides one gear slot.
+            Increases speed and stamina but reduces health. 
+        </description>
+        <preview>alliedlsviper.jpg</preview>
+        <level>18</level>
+        <health>-12</health>
+        <stamina>0.5</stamina>
+        <runSpeed>0.32</runSpeed>
+        <gearSlots>1</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>Guardian ColossusRC6</fullName>
+        <description>Heavy leg armor. Provides two gear slots.
+            Increases health but reduces speed and stamina. 
+        </description>
+        <preview>guardiancolossusrc6.jpg</preview>
+        <level>20</level>
+        <health>12</health>
+        <stamina>-0.1</stamina>
+        <runSpeed>-0.32</runSpeed>
+        <gearSlots>2</gearSlots>
+    </legArmor>
+	
+    <legArmor>
+        <fullName>The SpeedDemon</fullName>
+        <description>Light leg armor. Provides no gear slots.
+            Greatly increases speed and stamina but reduces health. 
+        </description>
+        <preview>thespeeddemon.jpg</preview>
+        <level>25</level>
+        <health>-20</health>
+        <stamina>0.8</stamina>
+        <runSpeed>0.54</runSpeed>
+        <gearSlots>0</gearSlots>
+    </legArmor>
+</legArmors>
+

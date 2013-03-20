@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    List of CR (Combat Rifle) magazines 
+    
+    <magazine>
+        <fullName>The name of the magazine.</fullName>
+        <description>The description of the magazine.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <matchesWeapon>The weapon short name this magazine goes with.</matchesWeapon>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+		
+        <stats>
+            <level>Integer. The level of the magazine.</level>
+            <magSize>Integer. The number of bullets the magazine holds.</magSize>
+            <reloadSpeed>Decimal. The reload speed of the magazine.</reloadSpeed>
+            <runSpeed>Decimal. The modification to the agents running speed.</runSpeed>
+        </stats>
+    </magazine>
+-->
+
+
+<magazinesCR>
+    
+    <magazine>
+        <fullName>Vulcan STD-01 C (Standard)</fullName>
+        <description>Standard-issue magazine provides no stat modification.</description>
+        <preview>crstandardmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.33</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Vulcan STD-02L C (Light)</fullName>
+        <description>Light magazines increase run speed.</description>
+        <preview>crlightmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.33</reloadSpeed>
+            <runSpeed>0.10</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-03Q C (Quick)</fullName>
+        <description>Quick magazines greatly increase reload speed.</description>
+        <preview>crquickmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>1.79</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-04XL C (Extended)</fullName>
+        <description>Extended magazines extend ammo capacity, but decrease run speed.</description>
+        <preview>crextendedmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>13</magSize>
+            <reloadSpeed>2.33</reloadSpeed>
+            <runSpeed>-0.10</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche XPL1 C (Explosive)</fullName>
+        <description>##explosive_mag</description>
+        <preview>crmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.35</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-05E C (Express)</fullName>
+        <description>Express magazines increase reload and run speeds.</description>
+        <preview>crmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.03</reloadSpeed>
+            <runSpeed>+0.05</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche ELEC1 C (Electro)</fullName>
+        <description>##electro_mag</description>
+        <preview>crmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.35</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>    
+    
+    <magazine>
+        <fullName>Foiche TOX1 C (Toxic)</fullName>
+        <description>##toxic_mag</description>
+        <preview>crmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.35</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>  
+      
+    <magazine>
+        <fullName>Foiche INCD1 C (Incendiary)</fullName>
+        <description>##fire_mag</description>
+        <preview>crmag.jpg</preview>
+        <matchesWeapon>CR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>10</magSize>
+            <reloadSpeed>2.36</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+    
+</magazinesCR>

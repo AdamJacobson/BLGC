@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+    List of stocks 
+    <stock>
+        <fullName>Full name of the stock.</fullName>
+        <description>Description of the stock.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+	
+        This pair of <statsAR> tags don't need to be here, and their name can be anything
+        they just help to organize this parts stats by the receiver type.
+        <statsAR>	
+            <matchesWeapon>AR</matchesWeapon>
+            <spreadHip>Decimal. The change to the spread when hip firing.</spreadHip>
+            <spreadHipMax>Decimal. The change to the max spread when hip firing.</spreadHipMax>
+            <spreadAim>Decimal. The change to the spread when aim firing.</spreadAim>
+            <spreadAimMax>Decimal. The change to the max spread when aim firing.</spreadAimMax>
+            <scopeIn>Decial. The change in scope-in time.</scopeIn>
+            <recoil>Decimal. The change in recoil amount.</recoil>
+            <rangeLow>Integer. The change in low range.</rangeLow>
+            <rangeMax>Integer. The change in max range.</rangeMax>
+            <runSpeed>Decimal. The change in running speed.</runSpeed>
+        </statsAR>	
+        
+        You need to specify a pair of <matchesWeapon> tags for each receiver that
+        this part can be applied to, but if no stats are specified afterwards, the stats
+        will just be 0.
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+--> 
+
+<stocks>
+
+    <stock>
+        <fullName>Silverwood IrF-2 Tactical</fullName>
+        <description>Standard stock. Standard-issue stock with no stat modifications.</description>
+        <preview>silverwoodirf2.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>AMR</matchesWeapon>
+        
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+        <matchesWeapon>SHOT</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>Frontier Uls-Ultralight</fullName>
+        <description>Light stock. Significantly increases running speed,
+            but increases recoil and spread while reducing range. 
+        </description>
+        <preview>frontieruls.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <statsAR>	
+            <matchesWeapon>AR</matchesWeapon>
+            <spreadHip>0.14</spreadHip>
+            <spreadHipMax>0.09</spreadHipMax>
+            <spreadAim>0.05</spreadAim>
+            <spreadAimMax>0.04</spreadAimMax>
+            <scopeInTime>0</scopeInTime>
+            <recoil>6.21</recoil>
+            <rangeLow>-3</rangeLow>
+            <rangeMax>-3</rangeMax>
+            <runSpeed>0.20</runSpeed>
+        </statsAR>
+        
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+        <matchesWeapon>SHOT</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>Krane COGs GX</fullName>
+        <description>Standard stock. Increases range and scope-in time, 
+            and reduces spread, recoil, and running speed. 
+        </description>
+        <preview>kranecogs.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>Silverwood BRS Tactical</fullName>
+        <description>Heavy stock. Increases range while decreasing spread and recoil. 
+            Also increases scope in time and reduces running speed. 
+        </description>
+        <preview>silverwoodbrs.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>ArmCom CQC EMOD</fullName>
+        <description>Light stock. Greatly increases running speed, 
+            but reduces range and increases spread and recoil. 
+        </description>
+        <preview>armcomcqc.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>V2 Folding CQC/B</fullName>
+        <description>Light stock. Increases running speed and range,
+            and reduces spread, but greatly increases recoil. 
+        </description>
+        <preview>v2folding.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Hullsbreach TSMA CQC/B</fullName>
+        <description>Standard stock. Increases running speed, 
+            but decreases range while increasing spread, recoil, and scope-in time. 
+        </description>
+        <preview>hullsbreachtsma.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Taurex ACP Mod 0</fullName>
+        <description>Heavy stock. Reduces spread and recoil while increasing range,
+            but increases scope-in time and greatly reduces running speed. 
+        </description>
+        <preview>taurexacp.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Krane STI-01</fullName>
+        <description>Standard stock. Improves spread and range, but increases scope-in time and recoil. </description>
+        <preview>kranesti01.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Overmatch JLM.5 Advanced</fullName>
+        <description>Heavy stock. Reduces recoil and running speed, and increases range and scope-in time. </description>
+        <preview>overmatchjlm5.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Krane CP2 Dual Mount</fullName>
+        <description>Light stock. Increases running speed and spread, and decreases range. </description>
+        <preview>kranecp2.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>    
+    
+    <stock>
+        <fullName>Vulcan ACP-3 Collapsible</fullName>
+        <description>Standard stock. Improves spread and range, 
+            but increases scope-in time and greatly reduces running speed. 
+        </description>
+        <preview>vulcanacp3jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+    
+    <stock>
+        <fullName>ArmCom AC10 Sharp</fullName>
+        <description>Heavy stock. Significantly reduces recoil, 
+            but increases spread and scope-in time and greatly reduces range and running speed. 
+        </description>
+        <preview>armcomac10.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+    </stock>
+</stocks>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<magazinesTSMG>
+    
+    <magazine>
+        <fullName>Standard TSMG Mag</fullName>
+        <description></description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <stats>
+            <level>4</level>
+            <magSize>40</magSize>
+            <reloadSpeed>3.20</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine> 
+    
+</magazinesTSMG>

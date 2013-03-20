@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    List of body armor
+-->
+
+<bodyArmors>
+    
+    <bodyArmor>
+        <fullName>Overmatch Anaconda KX7</fullName>
+        <description>Standard chest armor. Provides one gear slot. 
+            Standard-issue chest armor with no stat modifications.
+        </description>
+        <preview>overmatchanacondakx7.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        
+        <level>0</level>
+        <health>0</health>
+        <stamina>0.0</stamina>
+        <runSpeed>0.0</runSpeed>
+        <gearSlots>1</gearSlots>
+		
+    </bodyArmor>
+
+    <bodyArmor>
+        <fullName>Guardian Warmonger L1</fullName>
+        <description>Heavy chest armor. Provides two gear slots.
+            Increases health but reduces speed.
+        </description>
+        <preview>guardianwarmongerl1.jpg</preview>
+        
+        <level>4</level>
+        <health>10</health>
+        <stamina>-0.3</stamina>
+        <runSpeed>-0.27</runSpeed>
+        <gearSlots>2</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Allied Ranger LT</fullName>
+        <description>Light chest armor. Provides one gear slot.
+            Increases speed and stamina but reduces health.
+        </description>
+        <preview>alliedrangerlt.jpg</preview>
+        
+        <level>6</level>
+        <health>-16</health>
+        <stamina>0.5</stamina>
+        <runSpeed>0.43</runSpeed>
+        <gearSlots>1</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Overmatch BattleFront Xsl</fullName>
+        <description>Standard chest armor. Provides one gear slot.
+            Increases speed and stamina but reduces health.
+        </description>
+        <preview>overmatchbattlefrontxsl.jpg</preview>
+        
+        <level>8</level>
+        <health>-8</health>
+        <stamina>0.4</stamina>
+        <runSpeed>0.22</runSpeed>
+        <gearSlots>1</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Overmatch Delta i6</fullName>
+        <description>Standard chest armor. Provides one gear slot. 
+            Increases speed and stamina but reduces health.
+        </description>
+        <preview>overmatchdeltai6.jpg</preview>
+        
+        <level>10</level>
+        <health>-10</health>
+        <stamina>0.5</stamina>
+        <runSpeed>0.27</runSpeed>
+        <gearSlots>1</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Dataluxe BattleVest OS</fullName>
+        <description>Light chest armor. Provides no gear slot. 
+            Greatly increases speed and stamina but reduces health.
+        </description>
+        <preview>dataluxebattlevestos.jpg</preview>
+        
+        <level>12</level>
+        <health>-20</health>
+        <stamina>0.8</stamina>
+        <runSpeed>0.54</runSpeed>
+        <gearSlots>0</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Dataluxe X2 Tactical</fullName>
+        <description>Standard chest armor. Provides one gear slot.
+            Increases health but reduces speed.
+        </description>
+        <preview>dataluxex2tactical.jpg</preview>
+        
+        <level>14</level>
+        <health>8</health>
+        <stamina>0</stamina>
+        <runSpeed>-0.22</runSpeed>
+        <gearSlots>1</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Overmatch Impact CQT</fullName>
+        <description>Heavy chest armor. Provides two gear slots.
+            Greatly increases health but reduces speed and stamina. 
+        </description>
+        <preview>overmatchimpactcqt.jpg</preview>
+        
+        <level>25</level>
+        <health>20</health>
+        <stamina>-0.8</stamina>
+        <runSpeed>-0.54</runSpeed>
+        <gearSlots>2</gearSlots>
+    </bodyArmor>
+	
+    <bodyArmor>
+        <fullName>Allied Warzone oX9</fullName>
+        <description>Heavy chest armor. Provides two gear slots.
+            Greatly increases health but reduces speed and stamina. 
+        </description>
+        <preview>alliedwarzoneox9.jpg</preview>
+        
+        <level>25</level>
+        <health>20</health>
+        <stamina>-0.8</stamina>
+        <runSpeed>-0.54</runSpeed>
+        <gearSlots>2</gearSlots>
+    </bodyArmor>
+
+</bodyArmors>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    List of SHOT (Shotgun) magazines 
+    
+    <magazine>
+        <fullName>The name of the magazine.</fullName>
+        <description>The description of the magazine.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <matchesWeapon>The weapon short name this magazine goes with.</matchesWeapon>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+		
+        <stats>
+            <level>Integer. The level of the magazine.</level>
+            <magSize>Integer. The number of bullets the magazine holds.</magSize>
+            <reloadSpeed>Decimal. The reload speed of the magazine.</reloadSpeed>
+            <runSpeed>Decimal. The modification to the agents running speed.</runSpeed>
+        </stats>
+    </magazine>
+--> 
+
+<magazinesSHOT>
+    
+    <magazine>
+        <fullName>Vulcan STD-01 SG (Standard)</fullName>
+        <description>##standard_mag</description>
+        <preview>shotstandardmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.4</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche XPL1 SG (Explosive)</fullName>
+        <description>##explosive_mag</description>
+        <preview>shotexplosivemag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.6</reloadSpeed>
+            <runSpeed>-0.07</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Vulcan STD-02L SG (Light)</fullName>
+        <description>##light_mag</description>
+        <preview>shotlightmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>4</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.4</reloadSpeed>
+            <runSpeed>0.09</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Vulcan STD-03Q SG (Quick)</fullName>
+        <description>##quick_mag</description>
+        <preview>shotquickmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>1.85</reloadSpeed>
+            <runSpeed>-0.05</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-04XL SG (Extended)</fullName>
+        <description>##extended_mag</description>
+        <preview>shotextendedmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>12</magSize>
+            <reloadSpeed>2.4</reloadSpeed>
+            <runSpeed>-0.18</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche ELEC1 SG (Electro)</fullName>
+        <description>##electro_mag</description>
+        <preview>shotelectromag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.42</reloadSpeed>
+            <runSpeed>-0.07</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche TOX1 SG (Toxic)</fullName>
+        <description>##toxic_mag</description>
+        <preview>shottoxicmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.42</reloadSpeed>
+            <runSpeed>-0.07</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-05E SG (Express)</fullName>
+        <description>##express_mag</description>
+        <preview>shotexpressmag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.09</reloadSpeed>
+            <runSpeed>9.99</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche INCD1 SG (Incendiary)</fullName>
+        <description>##fire_mag</description>
+        <preview>shotfiremag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>2.42</reloadSpeed>
+            <runSpeed>-0.07</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche DRM-01 SG (Drummed)</fullName>
+        <description>##drum_mag</description>
+        <preview>shotdrummag.jpg</preview>
+        <matchesWeapon>SHOT</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>16</magSize>
+            <reloadSpeed>9.99</reloadSpeed>
+            <runSpeed>-9.99</runSpeed>
+        </stats>
+    </magazine>
+    
+</magazinesSHOT>

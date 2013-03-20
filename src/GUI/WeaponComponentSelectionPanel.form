@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.4" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+        <TitledBorder justification="2" position="2" title="Components">
+          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+          <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+        </TitledBorder>
+      </Border>
+    </Property>
+    <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[300, 200]"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="muzzleLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="scopeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="stockLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="receiverLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="barrelLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="magazineLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="receiverComboBox" pref="208" max="32767" attributes="0"/>
+                  <Component id="barrelComboBox" max="32767" attributes="0"/>
+                  <Component id="scopeComboBox" max="32767" attributes="0"/>
+                  <Component id="stockComboBox" max="32767" attributes="0"/>
+                  <Component id="magazineComboBox" alignment="0" max="32767" attributes="0"/>
+                  <Component id="muzzleComboBox" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="receiverPreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="barrelPreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="muzzlePreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="scopePreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="stockPreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="magazinePreviewButton" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="receiverLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="receiverComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="receiverPreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="barrelLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="barrelComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="barrelPreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="magazineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="magazineComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="magazinePreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="muzzleLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="muzzleComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="muzzlePreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="scopeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="scopeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="scopePreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="stockLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stockComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stockPreviewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="receiverLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Receiver :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="barrelLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Barrel :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="magazineLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Magazine :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="muzzleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Muzzle :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scopeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Scope :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stockLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Stock :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="receiverComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] {&quot;Nothing Selected&quot;})" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="receiverComboBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_DeclarationPre" type="java.lang.String" value="/** A comboBox that allows the selection of a Receiver. */"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="barrelComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Nothing selected&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="barrelComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="magazineComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Nothing selected&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="magazineComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="muzzleComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] {&quot;Nothing selected&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="muzzleComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="scopeComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Nothing selected&quot;  })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="scopeComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="stockComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Nothing selected&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stockComboBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="receiverPreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="receiverPreviewButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="barrelPreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="magazinePreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="muzzlePreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="scopePreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="stockPreviewButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- List of muzzles 
+
+    Muzzles are a universal part. Each muzzle can be applied to any receiver
+    (except the revolver) however, the stat changes are different depending on 
+    the receiver the muzzle is attached to.
+    
+    == Instructions for customizing ==
+    Before specifying the stats for the muzzle when applied to a 
+    receiver with shortName ABC, the tags <matchesWeapon>ABC</matchesWeapon>
+    must occur. Any stats specified after will apply only to the receiver with
+    shortName ABC. Add another line <matchesWeapon>XYZ</matchesWeapon> before
+    specifying the stats for the muzzle when attached to receiver with
+    shortName XYZ. Make sure that there is <matchesWeapon></matchesWeapon>
+    between each group of stats or they will overwrite the old values!
+    
+    You can see the list of receiver shortNames in the receivers.xml file
+    and the standardIssueGear.xml file.
+    
+    If the modification stats for a particular receiver are not specified, they will
+    default to 0 for everything. Therefore, you will need to explicitly specify 
+    the stat changes for each receiver or the muzzle will not have any affect on
+    that weapons' stats.
+
+--> 
+
+<muzzles>
+
+    <muzzle>
+        <fullName>Overmatch FB-RX</fullName>
+        <description>Flashbrake muzzle. Standard-issue muzzle with no stat modifications.</description>
+        <preview>OvermatchFBRX.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>ArmCom SYS3</fullName>
+        <description>Flashbrake muzzle. Reduces spread and damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Hullbreach ZXi Nexus</fullName>
+        <description>Flashbrake muzzle. Increases range, and reduces spread, recoil, and damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Frontier SRM01</fullName>
+        <description>Suppressor muzzle. Greatly reduces recoil, but increases spread while reducing damage and range. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Briar S'11 Archangel</fullName>
+        <description>Flashbrake muzzle. Reduces recoil and damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Vulcan QDSS-9</fullName>
+        <description>Flashbrake muzzle. Significantly reduces recoil and damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Briar XS-Supp</fullName>
+        <description>Suppressor muzzle. Greatly reduces recoil and damage.</description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Krane RXS Typhoon</fullName>
+        <description>Flashbrake muzzle. Reduces recoil and damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Vulcan r36 Spectrum</fullName>
+        <description>Flashbrake muzzle. Reduces spread and recoil while increasing range, but greatly reduces damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Krane SPR1</fullName>
+        <description>Flashbrake muzzle. Significantly increases damage, but reduces range while increasing spread and recoil. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>ArmCom NT4</fullName>
+        <description>Silencer muzzle. Significantly reduces recoil, but increases spread while reducing damage and range. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Frontier Snuff-XS</fullName>
+        <description>Flashbrake muzzle. Increases damage, and reduces spread, recoil, and range. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Silverwood RAS-6</fullName>
+        <description>Flashbrake muzzle. Increases damage and recoil. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Vulcan R19 Rift</fullName>
+        <description>Flashbrake muzzle. Greatly increases damage, but significantly increases recoil. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Briar XL Brake 9</fullName>
+        <description>Flashbrake muzzle. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>ArmCom Copperhead AM54</fullName>
+        <description>Flashbrake muzzle. Increases damage.</description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>ArmCom Two-Step AM22</fullName>
+        <description>Flashbrake muzzle. Increases damage. </description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+		
+        <matchesWeapon>AR</matchesWeapon>
+        <matchesWeapon>BAR</matchesWeapon>
+        <matchesWeapon>BR</matchesWeapon>
+        <matchesWeapon>BSMG</matchesWeapon>
+        <matchesWeapon>CR</matchesWeapon>
+        <matchesWeapon>HAR</matchesWeapon>
+        <matchesWeapon>LMG</matchesWeapon>
+        <matchesWeapon>SMG</matchesWeapon>
+        <matchesWeapon>TSMG</matchesWeapon>
+		
+        <matchesWeapon>LP</matchesWeapon>
+        <matchesWeapon>HP</matchesWeapon>
+        <matchesWeapon>MP</matchesWeapon>
+        <matchesWeapon>BP</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Briar BrGR1</fullName>
+        <description>Barrel grip. Standard-ssue grip with no stat modifications.</description>	
+        <preview>FrontierBSEV.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>SHOT</matchesWeapon>
+    </muzzle>
+    
+    <muzzle>
+        <fullName>Briar BrSGP1</fullName>
+        <description>Barrel post grip. Greatly reduces recoil and inceases fire rate</description>	
+        <preview>FrontierBSEV.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <level>1</level>
+        
+        <matchesWeapon>SHOT</matchesWeapon>
+    </muzzle>
+
+</muzzles>

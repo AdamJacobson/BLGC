@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    List of custom helmets
+-->
+
+<customHelmets>
+    <helmet>
+        <fullName>Kenbushi Net-Diver S12</fullName>
+        <description>Interface Visor.
+            Greatly reduces health and armor but increases speed, HRV Rechrge and Energy.
+        </description>
+        <preview>kenbushinetdivers12.jpg</preview>
+        
+        <level>25</level>
+        <health>-20</health>
+        <armor>2</armor>
+        <stamina>0.3</stamina>
+        <runSpeed>0.25</runSpeed>
+        <hrvEnergy>84</hrvEnergy>
+        <hrvRecharge>8.2</hrvRecharge>
+    </helmet>
+    
+</customHelmets>

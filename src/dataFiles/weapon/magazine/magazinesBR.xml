@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    List of BR (Burstfire Rifle) magazines 
+    
+    <magazine>
+        <fullName>The name of the magazine.</fullName>
+        <description>The description of the magazine.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <matchesWeapon>The weapon short name this magazine goes with.</matchesWeapon>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+		
+        <stats>
+            <level>Integer. The level of the magazine.</level>
+            <magSize>Integer. The number of bullets the magazine holds.</magSize>
+            <reloadSpeed>Decimal. The reload speed of the magazine.</reloadSpeed>
+            <runSpeed>Decimal. The modification to the agents running speed.</runSpeed>
+        </stats>
+    </magazine>
+-->
+
+
+<magazinesBR>
+    
+    <magazine>
+        <fullName>Vulcan STD-01 BR (Standard)</fullName>
+        <description>Standard-issue magazine provides no stat modification.</description>
+        <preview>brstandardmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.13</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-02L BR (Light)</fullName>
+        <description>Light magazines increase run speed.</description>
+        <preview>brlightmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.13</reloadSpeed>
+            <runSpeed>0.10</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-03Q BR (Quick)</fullName>
+        <description>Quick magazines greatly increase reload speed.</description>
+        <preview>brquickmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.41</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-04XL BR (Extended)</fullName>
+        <description>Extended magazines extend ammo capacity, but decrease run speed. </description>
+        <preview>brextendedmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>40</magSize>
+            <reloadSpeed>3.13</reloadSpeed>
+            <runSpeed>-0.06</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche XPL1 BR (Explosive)</fullName>
+        <description>##explosive_mag</description>
+        <preview>brexplosivemag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.16</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-05E BR (Express)</fullName>
+        <description>Express magazines increase reload and run speeds. </description>
+        <preview>brexpressmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.72</reloadSpeed>
+            <runSpeed>0.06</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche ELEC1 BR (Electro)</fullName>
+        <description>##electro_mag</description>
+        <preview>brelectromag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.16</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche TOX1 BR (Toxic)</fullName>
+        <description>##toxic_mag</description>
+        <preview>brtoxicmag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.16</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche INCD1 BR (Incendiary)</fullName>
+        <description>##fire_mag</description>
+        <preview>brfiremag.jpg</preview>
+        <matchesWeapon>BR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>3.16</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+    
+</magazinesBR>

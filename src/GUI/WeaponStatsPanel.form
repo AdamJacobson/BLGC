@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+        <TitledBorder title="Stats">
+          <Border PropertyName="innerBorder" info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+          <Color PropertyName="color" blue="0" green="0" red="0" type="rgb"/>
+        </TitledBorder>
+      </Border>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="damageLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="spreadHipLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="ammoLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="recoilLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="spreadAimLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="scopeLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="speedLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="ammoDisplayLabel" linkSize="5" max="32767" attributes="0"/>
+                              <Component id="recoilDisplayLabel" linkSize="5" pref="56" max="32767" attributes="0"/>
+                              <Component id="spreadHipDisplayLabel" linkSize="5" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="damageDisplayLabel" linkSize="5" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="spreadAimDisplayLabel" linkSize="5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="scopeDisplayLabel" linkSize="5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="spreadHipMaxLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="reloadSpeedLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spreadAimMaxLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="scopeInLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="reloadSpeedDisplayLabel" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="scopeInDisplayLabel" linkSize="1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spreadHipMaxDisplayLabel" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="spreadAimMaxDisplayLabel" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="rofLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rangeLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="rangeDisplayLabel" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="rofDisplayLabel" linkSize="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="speedDisplayLabel" linkSize="5" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="damageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="damageDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rofLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rofDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="recoilLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="recoilDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="rangeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="rangeDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ammoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ammoDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="spreadHipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spreadHipDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="spreadAimLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spreadAimDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="scopeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scopeDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="reloadSpeedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="reloadSpeedDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="spreadHipMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spreadHipMaxDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="spreadAimMaxLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="spreadAimMaxDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="scopeInLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="scopeInDisplayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="speedLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="speedDisplayLabel" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="spreadHipMaxLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rangeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Range :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadAimMaxLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="reloadSpeedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reload Speed :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scopeInLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Scope-In :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rofLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Rate of Fire :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scopeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zoom :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run Speed :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadAimLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spread Aim :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadHipLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spread Hip :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ammoLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ammo :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="damageLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Damage :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadAimDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadHipDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="        "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ammoDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="damageDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="        "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="speedDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="         "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scopeDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rofDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="reloadSpeedDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadHipMaxDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="spreadAimMaxDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rangeDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="scopeInDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="               "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="recoilLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Recoil :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="recoilDisplayLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="           "/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+    List of helmets
+-->
+
+
+<helmets>
+    
+    <helmet>
+        <fullName>Overmatch ArmetX</fullName>
+        <description>Standard helmet. 
+            Standard-issue helmet with no stat modifications.
+        </description>
+        <preview>overmatcharmetx.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+        
+        <armor>12</armor>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>6.6</hrvRecharge>
+    </helmet>
+    
+    <helmet>
+        <fullName>Allied R5X GHOST</fullName>
+        <description>Light helmet.
+            Slightly increases speed and recharge rate. 
+        </description>
+        <preview>alliedr5xghost.jpg</preview>
+        
+        <level>1</level>
+        <health>-4</health>
+        <armor>10</armor>
+        <stamina>0.1</stamina>
+        <runSpeed>0.11</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>7.1</hrvRecharge>
+    </helmet>
+	
+    <helmet>
+        <fullName>Dataluxe Breach-X7</fullName>
+        <description>Heavy helmet.
+            Slightly increases health and armor.
+        </description>
+        <preview>dataluxebreachx7.jpg</preview>
+        
+        <level>1</level>
+        <health>4</health>
+        <armor>16</armor>
+        <stamina>-0.1</stamina>
+        <runSpeed>-0.11</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>6.1</hrvRecharge>
+    </helmet>
+	
+    <helmet>
+        <fullName>Allied R97 II</fullName>
+        <description>Light helmet.
+            Increases speed and recharge rate.
+        </description>
+        <preview>alliedr97ii.jpg</preview>
+        
+        <level>1</level>
+        <health>-6</health>
+        <armor>6</armor>
+        <stamina>0.2</stamina>
+        <runSpeed>0.16</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>8.3</hrvRecharge>
+    </helmet>
+	
+    <helmet>
+        <fullName>Dataluxe Slant-X2</fullName>
+        <description>Heavy helmet.
+            Greatly increases health and armor.
+        </description>
+        <preview>dataluxeslantx2.jpg</preview>
+        
+        <level>19</level>
+        <health>10</health>
+        <armor>14</armor>
+        <stamina>-0.3</stamina>
+        <runSpeed>-0.27</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>6.4</hrvRecharge>
+    </helmet>
+	
+    <helmet>
+        <fullName>Allied R21v HUNTER</fullName>
+        <description>Light helmet.
+            Greatly increases health and recharge rate.
+        </description>
+        <preview>alliedr21vhunter.jpg</preview>
+        
+        <level>22</level>
+        <health>8</health>
+        <armor>5</armor>
+        <stamina>-0.2</stamina>
+        <runSpeed>-0.22</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>8.6</hrvRecharge>
+    </helmet>
+		
+    <helmet>
+        <fullName>Overmatch Bonebreaker</fullName>
+        <description>Standard helmet.
+            Increases speed and recharge rate.
+        </description>
+        <preview>overmatchbonebreaker.jpg</preview>
+        
+        <level>12</level>
+        <health>-10</health>
+        <armor>10</armor>
+        <stamina>0.3</stamina>
+        <runSpeed>0.27</runSpeed>
+        <hrvEnergy>70.0</hrvEnergy>
+        <hrvRecharge>7.1</hrvRecharge>
+    </helmet>
+</helmets>

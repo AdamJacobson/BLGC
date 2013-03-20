@@ -1,0 +1,109 @@
+A primary goal I had for this project was for it to be easily expandable and 
+editable by anybody who chooses. This was mostly for ease of use and 
+maleability: If the stats for some item should change in the future, it should 
+not be a huge hassle to change the data files that the program uses.
+
+I also wanted people who play this game to be able to invent their own equipment
+and compare it to the pre-existing items.
+
+To this end, I decided on using a simplified version of XML.
+If you are not familiar with XML, don't worry. One of it's many joys is that
+it is quite easy to pick up. I've written a short tutorial that you can read. 
+If you've got a history with XML, you probably don't even need to read the next section.
+
+1. Basic XML. In it's most basic form, XML is a way to hold data. 
+
+A sample bit of XML (Taken from one of my own data files) looks like this:
+
+<receivers>
+
+    <primaryReceiver>
+        <fullName>Assault Rifle</fullName>
+        <shortName>AR</shortName>
+
+        <stats>
+            <level>1</level>
+            <damage>50</damage>
+        </stats>
+    </primaryReceiver>
+
+    <primaryReceiver>
+        <fullName>Bolt Action Rifle</fullName>
+        <shortName>BAR</shortName>
+
+        <stats>
+            <level>1</level>
+            <damage>180</damage>
+        </stats>
+    </primaryReceiver>
+
+</receivers>
+
+You can probably tell in this example that I am defining 2 Primary Receivers.
+The first is called "Assault Rifle" and has a short name of "AR". It is a level
+1 item and does 50 damage.
+The second item is called "Bolt Action Rifle" and has a short name of BAR. It
+is also a level 1 item and does 180 damage.
+Easy, right?
+
+Notice that there are items enclosed in angle brackets "<" and ">". These
+are called "tags" and act as labels that for bits of data. Each tag has two
+parts; the start tag and the end tag. The only difference between these two
+parts is that one begins simply with "<" and the other begins with "</".
+These tags have the same tag name which indicates that whatever data is 
+between these tags is linked to that tag. Make sure that each start tag
+has an end tag or else the XML cannot be properly read by the program.
+
+It's important that a set of tags only contains either:
+    Any number of complete tag pairs and some text/numbers OR
+    No other tags and text/numbers OR
+    Just text/numbers.
+
+A set of tags cannot contain only the start or end tag of another set
+
+BAD!: <FIRST> <SECOND> </FIRST> </SECOND>
+
+The names of these tags are important! They indicate to whatever program is
+reading it what the data is relevant to. Renaming shortName to nickName may 
+make sense to you but the program is designed only to understand "shortName".
+
+You can see here that a set of tags can contain other tags. These tags, in turn
+can also contain more tags and more after that. This structure is called a
+TREE and is a way of grouping data together in the same way that you can take
+a large box and fill it with smaller boxes and then put even smaller boxes
+inside those. In this metaphor the boxes that do not contain any other boxes
+and instead have paper with text inside them are the LEAVES of the tree.
+
+In my simple version of XML you can expand the XML tree infinitely with tags that
+do nothing but hold other tags and name them whatever you want. The only tag
+names that matter are those of the LEAVES, the tags that only hold text data, and
+the SECOND LOWEST level of tags, which in this next example is "primaryReceiver". 
+This level of tag indicates what kind of object is being described. The lowest 
+level of tag is called the ROOT. It doesn't matter what you name the root.
+
+<root>   <-- The root tag. Can be named anything.
+
+    <primaryReceiver>   <-- The "object type" tag. Must use only recognized tag names.
+
+        <iLeikPie>   <-- Tags that only hold other tags. Can be named anything.
+
+            <kumquat>   <-- Tags that only hold other tags. Can be named anything.
+
+                <fullName>BFG 3000</fullName>   <-- Leaf tags. Must use only recognized tag names.
+
+                <damage>9999</damage>   <-- Leaf tags. Must use only recognized tag names.
+
+            </kumquat>
+
+        </iLeikPie>
+
+    </primaryReceiver>
+
+</root>
+
+
+So, to sum up:
+
+    1. The only tag names that matter are those of the LEAVES and the ones 1 level above the ROOT tag.
+    2. The case of each tag does not matter so primaryReceiver, primaryreceiver and PrImArYrEcEiVer are treated the same way.
+        2.1 HOWEVER, no matter what case is used, a start and end tag must use the same.

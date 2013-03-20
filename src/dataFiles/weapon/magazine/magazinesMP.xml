@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<magazinesLP>
+    
+    <magazine>
+        <fullName>Standard LP Mg</fullName>
+        <description>Has a faster reload</description>
+        <preview>VulcanSTD01ARStandard.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <matchesWeapon>LP</matchesWeapon>
+		
+        <stats>
+            <level>4</level>
+            <magSize>12</magSize>
+            <reloadSpeed>1.70</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>    
+    
+    <magazine>
+        <fullName>Quick LP Mag</fullName>
+        <description>Has a faster reload</description>
+        <preview>VulcanSTD01ARStandard.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <matchesWeapon>LP</matchesWeapon>
+		
+        <stats>
+            <level>4</level>
+            <magSize>12</magSize>
+            <reloadSpeed>1.20</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+    
+</magazinesLP>

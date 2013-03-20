@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<magazinesTSMG>
+    
+    <magazine>
+        <fullName>AMR Rounds</fullName>
+        <description>Standard rounds for the AMR.</description>
+        <preview>.jpg</preview>
+        <isStandardIssue>false</isStandardIssue>
+        <matchesWeapon>AMR</matchesWeapon>
+		
+        <stats>
+            <level>1</level>
+            <magSize>1</magSize>
+            <reloadSpeed>5.20</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine> 
+    
+</magazinesTSMG>

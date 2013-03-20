@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- List of scopes. 
+
+    Scopes are universal parts. They can be applied to all weapons by default.
+    There are some exceptions. Their stats do not change from receiver to receiver
+    so any stats only need to be entered once.
+    
+    If a scope cannot be applied to a certain receiver with shortName ABC
+    then the tag <notUsableOn>ABC</notUsableOn> is needed. An example of this can be
+    seen in the stat description for the "Silverwood CH-X25 RM" in this very file.
+	
+-->
+
+<scopes>
+    <scope>
+        <fullName>None</fullName>
+        <description>Use only the weapons built-in iron-sights</description>
+        <preview>noscope.jpg</preview>
+        <overlayPreview>noscopeOverlay.jpg</overlayPreview>
+        <isStandardIssue>true</isStandardIssue>
+
+        <notUsableOn>AR</notUsableOn>
+        <notUsableOn>BAR</notUsableOn>
+        <notUsableOn>BR</notUsableOn>
+        <notUsableOn>BSMG</notUsableOn>
+        <notUsableOn>CR</notUsableOn>
+        <notUsableOn>HAR</notUsableOn>
+        <notUsableOn>LMG</notUsableOn>
+        <notUsableOn>SMG</notUsableOn>
+        <notUsableOn>TSMG</notUsableOn>
+	
+        <stats>
+            <zoomAmount>1.3</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>  
+    
+    <scope>
+        <fullName>Titan x2.7 Tact</fullName>
+        <description>Rail sight. Standard-issue sight with 1.3x zoom.</description>
+        <preview>titanx27tact.jpg</preview>
+        <overlayPreview>titanx27tactOverlay.jpg</overlayPreview>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <zoomAmount>1.30</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+  
+    <scope>
+        <fullName>Lightsky L3 Aim Point</fullName>
+        <description>Open scope. Red dot sight with 0.65x zoom. </description>
+        <preview>lightskyl3aimpoint.jpg</preview>
+        <overlayPreview>lightskyl3aimpointOverlay.jpg</overlayPreview>
+	
+        <stats>
+            <level>1</level>
+            <zoomAmount>0.65</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>Krane FP-G38 Modulated</fullName>
+        <description>Zoom scope. Massive scope with 4.4x zoom but greatly increased scope-in time.</description>
+        <preview>kranefpg38modulated.jpg</preview>
+        <overlayPreview>kranefpg38modulatedOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>4.40</zoomAmount>
+            <scopeInTime>0.52</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>MMRS Flip-Up IS2</fullName>
+        <description>Rail sight. Closed rail sight with 1.3x zoom.</description>
+        <preview>mmrsflipupis2.jpg</preview>
+        <overlayPreview>mmrsflipupis2Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>1.30</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>EMI RiVAL-2</fullName>
+        <description>Open scope. Electronic scope with 3.9x zoom.</description>
+        <preview>emirival2.jpg</preview>
+        <overlayPreview>emirival2Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>3.90</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>EON-F1 Sight</fullName>
+        <description>Open scope. Smaller scope with 2.5x zoom. </description>
+        <preview>eonf1sight.jpg</preview>
+        <overlayPreview>eonf1sightOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>2.50</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>Krane KAUR-XSi</fullName>
+        <description>Open scope. Simple scope with 3x zoom. </description>
+        <preview>kranekaurxsi.jpg</preview>
+        <overlayPreview>kranekaurxsiOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>3.00</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>Krane EX9 Holo</fullName>
+        <description>Open scope. Holographic sight with 1.8x zoom. </description>
+        <preview>kraneex9holo.jpg</preview>
+        <overlayPreview>kraneex9holoOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>1.80</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>Silverwood CONS ELO-Tech</fullName>
+        <description>Closed scope. Scope and electronic sight combination with 3x zoom. </description>
+        <preview>silverwoodconselotech.jpg</preview>
+        <overlayPreview>silverwoodconselotechOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>3.00</zoomAmount>
+            <scopeInTime>0.25</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>OPRL Reflex-2 Holo</fullName>
+        <description>Open scope. Holographic sight with 2x zoom. </description>
+        <preview>oprlreflex2holo.jpg</preview>
+        <overlayPreview>oprlreflex2holoOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>2.00</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+    
+    <scope>
+        <fullName>Silverwood CH-X25 RM</fullName>
+        <description>Zoom scope. Heavy scope with 4x zoom but increased scope-in time. </description>
+        <preview>.jpg</preview>
+        <overlayPreview>Overlay.jpg</overlayPreview>
+   
+        <notUsableOn>BR</notUsableOn>
+        <notUsableOn>BSMG</notUsableOn>
+        <notUsableOn>TSMG</notUsableOn>
+   
+        <notUsableOn>LP</notUsableOn>
+        <notUsableOn>HP</notUsableOn>
+        <notUsableOn>REV</notUsableOn>
+        <notUsableOn>MP</notUsableOn>
+        <notUsableOn>BP</notUsableOn>
+   
+        <stats>
+            <level>1</level>
+            <zoomAmount>4.00</zoomAmount>
+            <scopeInTime>0.50</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>Frontier X-Light 257</fullName>
+        <description>Closed scope. Larger scope with 3.9x zoom but greatly increased scope-in time. </description>
+        <preview>frontierxlight257.jpg</preview>
+        <overlayPreview>frontierxlight257Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>3.90</zoomAmount>
+            <scopeInTime>0.53</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>ArmCom CQB-LT</fullName>
+        <description>Open scope. Smaller scope with 2.4x zoom. </description>
+        <preview>armcomcqblt.jpg</preview>
+        <overlayPreview>armcomcqbltOverlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>1.8</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>Lightsky ELO-Tech R6</fullName>
+        <description>Open scope. Electronic sight with 1.6x zoom. </description>
+        <preview>lightskyelotechr6.jpg</preview>
+        <overlayPreview>lightskyelotechr6Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>1.60</zoomAmount>
+            <scopeInTime>0.30</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>EMI Cypher ACOG3</fullName>
+        <description>Closed scope. Smaller scope with 3x zoom but slightly increased scope-in time. </description>	
+        <preview>emicypheracog3.jpg</preview>
+        <overlayPreview>emicypheracog3Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>3.00</zoomAmount>
+            <scopeInTime>0.43</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>EMI Fused Image-7</fullName>
+        <description>Zoom scope. High-powered with 4x zoom but increased scope-in time. </description>
+        <preview>emifusedimage7.jpg</preview>
+        <overlayPreview>emifusedimage7Overlay.jpg</overlayPreview>
+		
+        <stats>
+            <level>1</level>
+            <zoomAmount>4.00</zoomAmount>
+            <scopeInTime>0.45</scopeInTime>
+        </stats>
+    </scope>
+	
+    <scope>
+        <fullName>ArmCom ESK-VL Sniper</fullName>
+        <description>Zoom scope. Sniper scope with 6x zoom but increased scope-in time. </description>
+        <preview>armcomeskvlsniper.jpg</preview>
+        <overlayPreview>armcomeskvlsniperOverlay.jpg</overlayPreview>
+                
+        <stats>
+            <level>1</level>
+            <zoomAmount>6.00</zoomAmount>
+            <scopeInTime>0.50</scopeInTime>
+        </stats>
+    </scope>
+</scopes>

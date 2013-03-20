@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    List of SMG (Sub-Machine Gun) magazines 
+    
+    <magazine>
+        <fullName>The name of the magazine.</fullName>
+        <description>The description of the magazine.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <matchesWeapon>The weapon short name this magazine goes with.</matchesWeapon>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+		
+        <stats>
+            <level>Integer. The level of the magazine.</level>
+            <magSize>Integer. The number of bullets the magazine holds.</magSize>
+            <reloadSpeed>Decimal. The reload speed of the magazine.</reloadSpeed>
+            <runSpeed>Decimal. The modification to the agents running speed.</runSpeed>
+        </stats>
+    </magazine>
+-->
+
+
+<magazinesSMG>
+    
+    <magazine>
+        <fullName>Vulcan STD-01 S (Standard)</fullName>
+        <description>Standard-issue magazine provides no stat modification.</description>
+        <preview>smgstandardmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.70</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Vulcan STD-02L S (Light)</fullName>
+        <description>Light magazines increase run speed.</description>
+        <preview>smglightmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.70</reloadSpeed>
+            <runSpeed>0.10</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-03Q S (Quick)</fullName>
+        <description>Quick magazines greatly increase reload speed.</description>
+        <preview>smgquickmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.08</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-04XL S (Extended)</fullName>
+        <description>Extended magazines extend ammo capacity, but decrease run speed.</description>
+        <preview>smgextendedmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>45</magSize>
+            <reloadSpeed>2.70</reloadSpeed>
+            <runSpeed>-0.10</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche XPL1 S (Explosive)</fullName>
+        <description>##explosive_mag</description>
+        <preview>smgexplosivemag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.72</reloadSpeed>
+            <runSpeed>-0.03</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-05E S (Express)</fullName>
+        <description>Express magazines increase reload and run speeds.</description>
+        <preview>smgexpressmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.35</reloadSpeed>
+            <runSpeed>0.05</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Foiche ELEC1 S (Electro)</fullName>
+        <description>##electro_mag</description>
+        <preview>smgelectromag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.72</reloadSpeed>
+            <runSpeed>-0.03</runSpeed>
+        </stats>
+    </magazine>    
+    
+    <magazine>
+        <fullName>Foiche TOX1 S (Toxic)</fullName>
+        <description>##toxic_mag</description>
+        <preview>smgtoxicmag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.72</reloadSpeed>
+            <runSpeed>-0.03</runSpeed>
+        </stats>
+    </magazine>  
+      
+    <magazine>
+        <fullName>Foiche INCD1 S (Incendiary)</fullName>
+        <description>##fire_mag</description>
+        <preview>smgfiremag.jpg</preview>
+        <matchesWeapon>SMG</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>30</magSize>
+            <reloadSpeed>2.73</reloadSpeed>
+            <runSpeed>-0.03</runSpeed>
+        </stats>
+    </magazine>
+
+</magazinesSMG>

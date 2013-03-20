@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- List of all recievers.
+
+To function correctly, each subtree of <weapon_receivers>
+needs to contain exactly the same tags in the same order.
+The only exception is if there is <primary>true</primary>
+between the <parts> tags. In this case, you may leave the <has>
+tags out. They are not needed.
+
+To avoid odd data, ensure that each tag pair contains EITHER a string
+of text/numbers OR any number of other tags. BUT NOT BOTH. All text
+must be enclosed in its own tags.
+--> 
+
+<receivers>
+
+    <primaryReceiver>
+        <fullName>Assault Rifle</fullName>
+        <shortName>AR</shortName>
+        <description>Balanced damage and range.</description>
+        <preview>AR.jpg</preview>
+		
+        <isStandardIssue>true</isStandardIssue>
+
+        <stats>
+            <level>1</level>
+            <damage>50</damage>
+            <mags>4</mags>
+            <rangeLow>45</rangeLow>
+            <rangeMax>100</rangeMax>
+            <recoil>207.05</recoil>	
+            <rof>650</rof>
+            <runSpeed>0.0</runSpeed>
+            <spreadHip>1.43</spreadHip>
+            <spreadAim>0.2</spreadAim>
+            <spreadHipMax>8.59</spreadHipMax>
+            <spreadAimMax>3.65</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+
+    <primaryReceiver>
+        <fullName>Bolt Action Rifle</fullName>
+        <shortName>BAR</shortName>
+        <description>A long range, high powered rifle.</description>
+        <preview>BAR.jpg</preview>
+				
+        <isStandardIssue>false</isStandardIssue>
+
+        <stats>
+            <level>1</level>
+            <damage>180</damage>
+            <mags>4</mags>
+            <rangeLow>160</rangeLow>
+            <rangeMax>180</rangeMax>
+            <recoil>500.00</recoil>
+            <rof>76</rof>
+            <runSpeed>-0.50 </runSpeed>
+            <spreadHip>6.88</spreadHip>
+            <spreadAim>0.0</spreadAim>
+            <spreadHipMax>20.05</spreadHipMax>
+            <spreadAimMax>0.0</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+	
+    <primaryReceiver>
+        <fullName>Burstfire Rifle</fullName>
+        <shortName>BR</shortName>
+        <description>Fires a tight spread of 3 bullets per shot.</description>
+        <preview>BR.jpg</preview>
+						
+        <isStandardIssue>false</isStandardIssue>
+
+        <stats>
+            <level>3</level>
+            <damage>55</damage>
+            <mags>4</mags>
+            <rangeLow>60</rangeLow>
+            <rangeMax>100</rangeMax>
+            <recoil>205.27</recoil>	
+            <rof>725</rof>
+            <runSpeed>-0.15 </runSpeed>
+            <spreadHip>0.86</spreadHip>
+            <spreadAim>0.20</spreadAim>
+            <spreadHipMax>8.59</spreadHipMax>
+            <spreadAimMax>3.76</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+	
+    <primaryReceiver>
+        <fullName>Sub Machine Gun</fullName>
+        <shortName>SMG</shortName>
+        <description>Quick fire rate but lower damage.</description>
+        <preview>SMG.jpg</preview>
+	
+        <stats>
+            <level>4</level>
+            <damage>45</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>80</rangeMax>
+            <recoil>70.71</recoil>	
+            <rof>750</rof>
+            <runSpeed>0.3</runSpeed>
+            <spreadHip>2.29</spreadHip>
+            <spreadAim>1.15</spreadAim>
+            <spreadHipMax>6.88</spreadHipMax>
+            <spreadAimMax>3.44</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+
+    <primaryReceiver>
+        <fullName>Combat Rifle</fullName>
+        <shortName>CR</shortName>
+        <description>A long range semi-auto single-shot rifle</description>
+        <preview>CR.jpg</preview>
+	
+        <stats>
+            <level>5</level>
+            <damage>80</damage>
+            <mags>4</mags>
+            <rangeLow>160</rangeLow>
+            <rangeMax>180</rangeMax>
+            <recoil>212.13</recoil>	
+            <rof>300</rof>
+            <runSpeed>-0.25</runSpeed>
+            <spreadHip>1.43</spreadHip>
+            <spreadAim>0.0</spreadAim>
+            <spreadHipMax>22.92</spreadHipMax>
+            <spreadAimMax>2.58</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+	
+    <primaryReceiver>
+        <fullName>Light Machine Gun</fullName>
+        <shortName>LMG</shortName>
+        <description>High spread and magazine size.</description>
+        <preview>LMG.jpg</preview>
+	
+        <stats>
+            <level>6</level>
+            <damage>65</damage>
+            <mags>3</mags>
+            <rangeLow>55</rangeLow>
+            <rangeMax>120</rangeMax>
+            <recoil>214.35</recoil>	
+            <rof>650</rof>
+            <runSpeed>-0.50</runSpeed>
+            <spreadHip>4.01</spreadHip>
+            <spreadAim>2.41</spreadAim>
+            <spreadHipMax>7.45</spreadHipMax>
+            <spreadAimMax>4.47</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+    
+    <primaryReceiver>
+        <fullName>Tactical Sub Machine Gun</fullName>
+        <shortName>TSMG</shortName>
+        <description>Lower spread, recoil and damage.</description>
+        <preview>TSMG.jpg</preview>
+		
+        <parts>
+            <hasBarrel>false</hasBarrel>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>6</level>
+            <damage>33</damage>
+            <mags>4</mags>
+            <rangeLow>35</rangeLow>
+            <rangeMax>90</rangeMax>
+            <recoil>70.71</recoil>	
+            <rof>800</rof>
+            <runSpeed>0.30</runSpeed>
+            <spreadHip>1.15</spreadHip>
+            <spreadAim>0.57</spreadAim>
+            <spreadHipMax>5.73</spreadHipMax>
+            <spreadAimMax>2.86</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+    
+    <primaryReceiver>
+        <fullName>Burstfire Sub Machine Gun</fullName>
+        <shortName>BSMG</shortName>
+        <description>Fires bursts of 4 bullets.</description>
+        <preview>BSMG.jpg</preview>
+		
+        <parts>
+            <hasBarrel>false</hasBarrel>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>6</level>
+            <damage>43</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>80</rangeMax>
+            <recoil>69.53</recoil>	
+            <rof>750</rof>
+            <runSpeed>0.25</runSpeed>
+            <spreadHip>1.15</spreadHip>
+            <spreadAim>0.57</spreadAim>
+            <spreadHipMax>7.36</spreadHipMax>
+            <spreadAimMax>3.68</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+	
+    <primaryReceiver>
+        <fullName>Heavy Assault Rifle</fullName>
+        <shortName>HAR</shortName>
+        <description>An Assault Rifle with high damage but lower fire rate an cip size.</description>
+        <preview>HAR.jpg</preview>
+
+        <stats>
+            <level>7</level>
+            <damage>62</damage>
+            <mags>4</mags>
+            <rangeLow>60</rangeLow>
+            <rangeMax>100</rangeMax>
+            <recoil>402.04</recoil>	
+            <rof>500</rof>
+            <runSpeed>-0.30</runSpeed>
+            <spreadHip>1.43</spreadHip>
+            <spreadAim>0.20</spreadAim>
+            <spreadHipMax>8.59</spreadHipMax>
+            <spreadAimMax>3.22</spreadAimMax>
+        </stats>
+    </primaryReceiver>
+	
+    <primaryReceiver>
+        <fullName>Anti-Materiel Rifle</fullName>
+        <shortName>AMR</shortName>
+        <description>Extremely powerfull rifle with long reload time.</description>
+        <preview>AMR.jpg</preview>
+	
+        <parts>
+            <hasBarrel>false</hasBarrel>
+            <hasMuzzle>false</hasMuzzle>
+        </parts>
+        
+        <stats>
+            <level>30</level>
+            <damage>275</damage>
+            <mags>9</mags>
+            <rangeLow></rangeLow>
+            <rangeMax></rangeMax>
+            <recoil></recoil>	
+            <rof></rof>
+            <runSpeed></runSpeed>
+            <spreadHip></spreadHip>
+            <spreadAim></spreadAim>
+            <spreadHipMax></spreadHipMax>
+            <spreadAimMax></spreadAimMax>
+        </stats>
+    </primaryReceiver>
+        
+    <secondaryReceiver>
+        <fullName>Light Pistol</fullName>
+        <shortName>LP</shortName>
+        <description>A standard sidearm for agents.</description>
+        <preview>LP.jpg</preview>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <parts>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>8</level>
+            <damage>40</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>50</rangeMax>
+            <recoil>100.00</recoil>	
+            <rof>600</rof>
+            <runSpeed>0.50</runSpeed>
+            <spreadHip>2.29</spreadHip>
+            <spreadAim>0.92</spreadAim>
+            <spreadHipMax>11.46</spreadHipMax>
+            <spreadAimMax>4.58</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	
+    <secondaryReceiver>
+        <fullName>Heavy Pistol</fullName>
+        <shortName>HP</shortName>
+        <description>A pistol with higher damage and firerate than the Light Pistol</description>
+        <preview>HP.jpg</preview>
+		
+        <parts>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>9</level>
+            <damage>50</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>50</rangeMax>
+            <recoil>100.0</recoil>	
+            <rof>800</rof>
+            <runSpeed>0.50</runSpeed>
+            <spreadHip>2.29</spreadHip>
+            <spreadAim>0.92</spreadAim>
+            <spreadHipMax>11.46</spreadHipMax>
+            <spreadAimMax>4.58</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	
+    <secondaryReceiver>
+        <fullName>Revolver</fullName>
+        <shortName>REV</shortName>
+        <description>High damage pistol with 6 shots.</description>
+        <preview>Rev.jpg</preview>
+		
+        <parts>
+            <hasBarrel>false</hasBarrel>
+            <hasMuzzle>false</hasMuzzle>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>5</level>
+            <damage>125</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>80</rangeMax>
+            <recoil>70.71</recoil>	
+            <rof>750</rof>
+            <runSpeed>0.3</runSpeed>
+            <spreadHip>2.29</spreadHip>
+            <spreadAim>1.15</spreadAim>
+            <spreadHipMax>6.88</spreadHipMax>
+            <spreadAimMax>3.44</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	
+    <secondaryReceiver>
+        <fullName>Shotgun</fullName>
+        <shortName>SHOT</shortName>
+        <description>Effective at short range.</description>
+        <preview>SHOT.jpg</preview>
+
+        <stats>
+            <level>20</level>
+            <damage>23</damage>
+            <mags>4</mags>
+            <rangeLow>12</rangeLow>
+            <rangeMax>22</rangeMax>
+            <recoil>1200.00</recoil>	
+            <rof>100</rof>
+            <runSpeed>0.09</runSpeed>
+            <spreadHip>1.72</spreadHip>
+            <spreadAim>0.52</spreadAim>
+            <spreadHipMax>5.16</spreadHipMax>
+            <spreadAimMax>1.55</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	
+    <secondaryReceiver>
+        <fullName>Machine Pistol</fullName>
+        <shortName>MP</shortName>
+        <description>A pistol with very high rate of fire</description>
+        <preview>MP.jpg</preview>
+		
+        <parts>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>15</level>
+            <damage>45</damage>
+            <mags>4</mags>
+            <rangeLow>10</rangeLow>
+            <rangeMax>50</rangeMax>
+            <recoil>294.07</recoil>	
+            <rof>850</rof>
+            <runSpeed>0.30</runSpeed>
+            <spreadHip>4.58</spreadHip>
+            <spreadAim>2.29</spreadAim>
+            <spreadHipMax>11.46</spreadHipMax>
+            <spreadAimMax>5.73</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	
+    <secondaryReceiver>
+        <fullName>Burstfire Pistol</fullName>
+        <shortName>BP</shortName>
+        <description>Fires a spread of 3 bullets</description>
+        <preview>BP.jpg</preview>
+		
+        <parts>
+            <hasBarrel>false</hasBarrel>
+            <hasStock>false</hasStock>
+        </parts>
+		
+        <stats>
+            <level>15</level>
+            <damage>50</damage>
+            <mags>4</mags>
+            <rangeLow>30</rangeLow>
+            <rangeMax>50</rangeMax>
+            <recoil>258.46</recoil>	
+            <rof>600</rof>
+            <runSpeed>0.30</runSpeed>
+            <spreadHip>2.01</spreadHip>
+            <spreadAim>0.80</spreadAim>
+            <spreadHipMax>11.46</spreadHipMax>
+            <spreadAimMax>4.58</spreadAimMax>
+        </stats>
+    </secondaryReceiver>
+	   
+</receivers>

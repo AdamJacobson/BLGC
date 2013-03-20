@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    List of BAR (Bolt-Action Rifle) magazines 
+    
+    <magazine>
+        <fullName>The name of the magazine.</fullName>
+        <description>The description of the magazine.</description>
+        <preview>The file name for the preview image.jpg</preview>
+        <matchesWeapon>The weapon short name this magazine goes with.</matchesWeapon>
+        <isStandardIssue>true/false. If this magazine is standard issue.</isStandardIssue>
+		
+        <stats>
+            <level>Integer. The level of the magazine.</level>
+            <magSize>Integer. The number of bullets the magazine holds.</magSize>
+            <reloadSpeed>Decimal. The reload speed of the magazine.</reloadSpeed>
+            <runSpeed>Decimal. The modification to the agents running speed.</runSpeed>
+        </stats>
+    </magazine>
+--> 
+
+<magazinesBAR>
+    
+    <magazine>
+        <fullName>Vulcan STD-01 BA (Standard)</fullName>
+        <description>##standard_mag</description>
+        <preview>barstandardmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>true</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.37</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+	
+    <magazine>
+        <fullName>Vulcan STD-02L BA (Light)</fullName>
+        <description>##light_mag</description>
+        <preview>barlightmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>4</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.37</reloadSpeed>
+            <runSpeed>0.10</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Vulcan STD-03Q BA (Quick)</fullName>
+        <description>##quick_mag</description>
+        <preview>barquickmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>3.76</reloadSpeed>
+            <runSpeed>0.0</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche XPL1 BA (Explosive)</fullName>
+        <description>##explosive_mag</description>
+        <preview>barexplosivemag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.40</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche ELEC1 BA (Electro)</fullName>
+        <description>##electro_mag</description>
+        <preview>barelectromag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.40</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+    
+        
+    <magazine>
+        <fullName>Vulcan STD-04XL BA (Extended)</fullName>
+        <description>##extended_mag</description>
+        <preview>barextendedmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>8</magSize>
+            <reloadSpeed>4.37</reloadSpeed>
+            <runSpeed>-0.10</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche TOX1 BA (Toxic)</fullName>
+        <description>##toxic_mag</description>
+        <preview>bartoxicmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.40</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+        
+    <magazine>
+        <fullName>Vulcan STD-05E BA (Express)</fullName>
+        <description>##express_mag</description>
+        <preview>barexpressmag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>3.80</reloadSpeed>
+            <runSpeed>0.05</runSpeed>
+        </stats>
+    </magazine>
+    
+    <magazine>
+        <fullName>Foiche INCD1 BA (Incendiary)</fullName>
+        <description>##fire_mag</description>
+        <preview>barfiremag.jpg</preview>
+        <matchesWeapon>BAR</matchesWeapon>
+        <isStandardIssue>false</isStandardIssue>
+		
+        <stats>
+            <level>1</level>
+            <magSize>5</magSize>
+            <reloadSpeed>4.41</reloadSpeed>
+            <runSpeed>-0.02</runSpeed>
+        </stats>
+    </magazine>
+    
+</magazinesBAR>
